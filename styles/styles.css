@@ -18,7 +18,7 @@ img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px gray;
 }
 
 p {
@@ -32,8 +32,7 @@ main {
 aside {
     background-color: rgb(255, 255, 232);
     width: 20rem;
-    border: 1px solid black;
-    padding: 1rem;
+    border: 1px solid grey padding: 1rem;
     margin: 1rem;
     color: rgba(7, 5, 5, 0.959);
 
@@ -46,12 +45,15 @@ aside img {
 
 main img {
     width: 150px;
-    height;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+
 }
 
 footer {
     margin-top: 15px;
-    border-top: 1px;
-    solid #000;
+    border-top: 1px solid #000;
     text-align: center;
 }
