@@ -32,7 +32,8 @@ main {
 aside {
     background-color: rgb(255, 255, 232);
     width: 20rem;
-    border: 1px solid grey padding: 1rem;
+    border: 1px solid grey;
+    padding: 1rem;
     margin: 1rem;
     color: rgba(7, 5, 5, 0.959);
 
