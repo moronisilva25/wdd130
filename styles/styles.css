@@ -1,3 +1,11 @@
+:root {
+    --heading-color: darkblue;
+    --border-color: grey;
+    --shadow-color: grey;
+    --padding-size: 1rem;
+
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -10,7 +18,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--heading-color);
 }
 
 img {
@@ -18,7 +26,7 @@ img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--shadow-color);
 }
 
 p {
@@ -32,8 +40,8 @@ main {
 aside {
     background-color: rgb(255, 255, 232);
     width: 20rem;
-    border: 1px solid grey;
-    padding: 1rem;
+    border: 1px solid var(--border-color);
+    padding: var(--padding-size);
     margin: 1rem;
     color: rgba(7, 5, 5, 0.959);
 
