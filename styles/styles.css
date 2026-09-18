@@ -1,5 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 :root {
-    --heading-color: darkblue;
+    --heading-color: rgb(44, 99, 115);
     --border-color: grey;
     --shadow-color: grey;
     --padding-size: 1rem;
@@ -7,7 +14,7 @@
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-color);
     padding: 10px;
 }
 
@@ -15,6 +22,7 @@ nav a {
     color: white;
     display: block;
     padding: 20px;
+    background-color: var(--heading-color);
 }
 
 h1 {
@@ -38,13 +46,16 @@ main {
 }
 
 aside {
-    background-color: rgb(255, 255, 232);
     width: 20rem;
-    border: 1px solid var(--border-color);
-    padding: var(--padding-size);
-    margin: 1rem;
-    color: rgba(7, 5, 5, 0.959);
+    position: relative;
+    text-align: center;
 
+}
+
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 120px;
 }
 
 aside img {
@@ -53,6 +64,7 @@ aside img {
 }
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -65,4 +77,13 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Css class selectors*/
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1rem;
+    background-color: #e4ddcc;
+    color: black;
 }
