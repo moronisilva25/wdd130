@@ -1,6 +1,6 @@
 :root {
     --primary-color: #f1f6f9;
-    --secondary-color: #5a3f29;
+    --secondary-color: #211105;
     --accent1-color: #264653;
     --accent2-color: #000101;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -24,6 +24,7 @@ footer {
     width: 840px;
     max-width: 100%;
     margin: 0 auto;
+    border-top: 3px solid var(--secondary-color);
 }
 
 h1,
