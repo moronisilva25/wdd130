@@ -62,7 +62,7 @@ header nav a {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color: #000;
+    color: var(--accent2-color);
     background-color: #eee;
     border: 1px solid #ccc;
     text-align: center;
@@ -106,7 +106,7 @@ section h2 {
     left: 0;
     width: 100%;
     padding: 12px;
-    background-color: rgba(26, 54, 93, 0.75);
+    background-color: var(--accent1-color);
     color: var(--light-color);
     font-size: 2rem;
 }
@@ -120,7 +120,7 @@ section h2 {
     margin: 0;
     padding: 16px;
     display: flow-root;
-    background-color: rgba(26, 54, 93, 0.85);
+    background-color: var(--accent1-color);
     color: var(--light-color);
     line-height: 1.5;
 }
@@ -192,7 +192,7 @@ section h2 {
 footer {
     margin-top: 25px;
     padding: 15px 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid var(--accent2-color);
 }
 
 footer p {
