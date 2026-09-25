@@ -5,6 +5,7 @@
     --accent2-color: #000101;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
+    --light-color: #ffffff;
 }
 
 * {
@@ -106,7 +107,7 @@ section h2 {
     width: 100%;
     padding: 12px;
     background-color: rgba(26, 54, 93, 0.75);
-    color: #ffffff;
+    color: var(--light-color);
     font-size: 2rem;
 }
 
@@ -120,7 +121,7 @@ section h2 {
     padding: 16px;
     display: flow-root;
     background-color: rgba(26, 54, 93, 0.85);
-    color: #ffffff;
+    color: var(--light-color);
     line-height: 1.5;
 }
 
@@ -134,7 +135,7 @@ section h2 {
     float: right;
     width: 125px;
     margin-left: 16px;
-    border: 2px solid #ffffff;
+    border: 2px solid var(--light-color);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 }
 
