@@ -25,6 +25,7 @@ footer {
     width: 840px;
     max-width: 100%;
     margin: 0 auto;
+    border-top: 3px solid var(--secondary-color);
 }
 
 header {
@@ -82,7 +83,7 @@ h2 {
 section h2 {
     padding: 12px;
     background-color: var(--accent1-color);
-    color: #ffffff;
+    color: var(--primary-color);
     margin: 20px 0 10px 0;
 }
 
