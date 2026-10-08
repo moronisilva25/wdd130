@@ -283,11 +283,12 @@ footer p {
 }
 
 .team .adventure-grid img {
-    height: 170px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center top;
 }
 
 
-.contact-layout,
-section .adventure-grid figcaption {
+.team .adventure-grid figcaption {
     font-size: 0.95rem;
 }
