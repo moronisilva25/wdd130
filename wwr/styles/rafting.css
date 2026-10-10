@@ -20,54 +20,6 @@ body {
 }
 
 
-header,
-main,
-footer {
-    width: 840px;
-    max-width: 100%;
-    margin: 0 auto;
-    border-top: 3px solid var(--secondary-color);
-}
-
-header {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-header img.logo {
-    width: 100px;
-    height: auto;
-}
-
-header nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-header nav li {
-    margin: 0;
-    padding: 0;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-}
-
-header nav a {
-    display: block;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: var(--accent2-color);
-    background-color: #eee;
-    border: 1px solid #ccc;
-    text-align: center;
-}
-
 p,
 section,
 article {
