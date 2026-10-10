@@ -446,7 +446,8 @@ header nav a {
 }
 
 .home .highlights h2 {
-    background: none;
+    background-color: #dadde0;
+    ;
     color: var(--accent1-color);
     margin: 10px 0 0;
     font-size: 40px;
@@ -580,7 +581,7 @@ header nav a {
     font-size: 20px;
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    background-color: #dadde0;
 }
 
 
